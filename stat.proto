@@ -1,0 +1,21 @@
+message FiveNumbers
+{
+	int num1
+	int num2
+	int num3
+	int num4
+	int num5
+}
+
+message MinMaxAverage
+{
+	int max
+	int min
+	double average
+}
+
+rpc Statistics
+{
+	param  FiveNumbers
+	reply  MinMaxAverage
+}
