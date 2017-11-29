@@ -4,7 +4,7 @@ In this project, I implemented a simple rpc generator, which allows user to defi
 
 The xrpc generator consists of a simple parser which is used to read rpc definition files , a `C` socket program skeleton and some data strutures for saving message and rpc function data. The following is a sample of my rpc definition file:
 
-```json
+```
 message FiveNumbers
 {
 	int num1
