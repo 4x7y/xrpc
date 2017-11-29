@@ -53,7 +53,7 @@ and it will automatically generate two stub files `client_stub.h` and `server_st
 Include these header files in your client and server program respectively will allow you to use rpc service.
 
 ```C
-*
+/*
     C socket server example
 */
 
